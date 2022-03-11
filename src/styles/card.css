@@ -1,0 +1,39 @@
+.card-article {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-description {
+  font-size: 12px;
+}
+
+.card-button {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: 600;
+  background-color: #699cfc;
+  color: white;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.card-button:hover {
+  background-color: #202020;
+  color: white;
+}
+
+.card-image {
+  height: 180px;
+}
+
+.card-body {
+  background-color: #ffff4d44;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-image {
+    height: auto;
+  }
+}
